@@ -124,6 +124,13 @@ The platform can help governments and civic organizations:
 Sujal Kumar
 B.Tech CSE (AI & ML)
 
+Suraj Jaiswal 
+B.Tech CSE (AI & ML)
+
+Parth Tambe 
+B.Tech CSE (AI & ML)
+
+
 ---
 
 ## License
