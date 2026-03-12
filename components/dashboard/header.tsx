@@ -16,7 +16,11 @@ export function Header() {
 
       <div className="flex items-center gap-4">
         <div className="relative">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+          <img
+            src="/mylogo.png"
+            alt="logo"
+            className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2"
+          />
           <Input
             placeholder="Search complaints..."
             className="w-64 border-border bg-secondary/50 pl-9 text-foreground placeholder:text-muted-foreground focus-visible:ring-primary"

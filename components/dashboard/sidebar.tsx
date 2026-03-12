@@ -11,7 +11,6 @@ import {
   Settings,
   ChevronLeft,
   ChevronRight,
-  Brain,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -35,20 +34,22 @@ export function Sidebar() {
         collapsed ? "w-16" : "w-64"
       )}
     >
+      {/* Logo Section */}
       <div className="flex h-16 items-center gap-3 border-b border-sidebar-border px-4">
-        <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-accent">
-          <Brain className="h-5 w-5 text-primary-foreground" />
-        </div>
+        <img
+          src="/mylogo.png"
+          alt="Civic Intelligence Logo"
+          className="h-8 w-8 object-contain"
+        />
+
         {!collapsed && (
-          <div className="flex flex-col">
-            <span className="text-sm font-semibold text-sidebar-foreground">
-              Civic Intelligence
-            </span>
-            <span className="text-xs text-muted-foreground">Platform</span>
-          </div>
+          <span className="text-sm font-semibold text-sidebar-foreground">
+            Civic Intelligence
+          </span>
         )}
       </div>
 
+      {/* Navigation */}
       <nav className="flex-1 space-y-1 p-3">
         {navItems.map((item) => (
           <button
@@ -66,6 +67,7 @@ export function Sidebar() {
         ))}
       </nav>
 
+      {/* Collapse Button */}
       <div className="border-t border-sidebar-border p-3">
         <button
           onClick={() => setCollapsed(!collapsed)}
