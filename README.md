@@ -1,35 +1,131 @@
-# v0-civic-intelligence-platform
+# Civic Intelligence Platform
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+An AI-powered analytics dashboard that helps governments and organizations understand citizen concerns by analyzing feedback from social media, complaint portals, and surveys.
 
-## Built with v0
+The platform uses Natural Language Processing (NLP) and data visualization to identify major civic issues such as traffic congestion, pollution, infrastructure problems, and public grievances.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+---
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_v7gsTpOcsfDZZWiMfzeLuVYPXd6d)
+## Features
+
+* Real-time citizen complaint analysis
+* Sentiment analysis using AI/NLP
+* Interactive dashboard with charts and insights
+* Issue hotspot visualization
+* AI-based policy insights and recommendations
+* Complaint analyzer for quick issue detection
+
+---
+
+## Dashboard Components
+
+* Sidebar navigation
+* Statistics cards for civic metrics
+* Sentiment analysis charts
+* Complaint trend visualization
+* Issue category charts
+* City issue heatmap
+* AI insights panel
+* Complaint analyzer tool
+
+---
+
+## Tech Stack
+
+Frontend
+
+* Next.js
+* React
+* Tailwind CSS
+
+Data Visualization
+
+* Chart.js / Recharts
+
+AI / NLP (planned integration)
+
+* Python
+* HuggingFace Transformers
+* BERT models
+
+---
+
+## Project Structure
+
+```
+app/
+  layout.tsx
+  page.tsx
+  globals.css
+
+components/
+  dashboard/
+    sidebar.tsx
+    header.tsx
+    stats-cards.tsx
+    sentiment-chart.tsx
+    complaints-chart.tsx
+    issues-chart.tsx
+    city-heatmap.tsx
+    ai-insights.tsx
+    complaint-analyzer.tsx
+
+public/
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-## Learn More
+Open the application in your browser:
 
-To learn more, take a look at the following resources:
+```
+http://localhost:3000
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+---
 
-<a href="https://v0.app/chat/api/kiro/clone/sujalkumar1029-gif/v0-civic-intelligence-platform" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+## Future Improvements
+
+* Real social media data integration
+* Government open data APIs
+* Advanced BERT-based sentiment analysis
+* Geographic issue heatmaps
+* AI policy recommendation engine
+* Real-time monitoring system
+
+---
+
+## Use Case
+
+The platform can help governments and civic organizations:
+
+* Detect emerging public issues early
+* Understand citizen sentiment
+* Prioritize infrastructure improvements
+* Support data-driven policy decisions
+
+---
+
+## Author
+
+Sujal Kumar
+B.Tech CSE (AI & ML)
+
+---
+
+## License
+
+This project is for educational and research purposes.

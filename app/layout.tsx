@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Civic Intelligence Platform',
   description: 'AI-powered government analytics dashboard for citizen complaint analysis',
-  generator: 'v0.app',
+  generator: 'generator: "Civic Intelligence Platform",',
   icons: {
     icon: [
       {
